@@ -1,0 +1,54 @@
+• Network > XHR
+	{kind: "youtube#searchListResponse", etag: "aT5o2xIq8oNxJlUCOyVrNGy064w", nextPageToken: "CAoQAA",…}
+	etag: "aT5o2xIq8oNxJlUCOyVrNGy064w"
+	items: [{kind: "youtube#searchResult", etag: "_iDimM15zRUpTqmwS4Eanghaf80",…},…]
+	0: {kind: "youtube#searchResult", etag: "_iDimM15zRUpTqmwS4Eanghaf80",…}
+	etag: "_iDimM15zRUpTqmwS4Eanghaf80"
+	id: {kind: "youtube#video", videoId: "n1DUkSnzGCY"}
+	kind: "youtube#video"
+	videoId: "n1DUkSnzGCY"
+	kind: "youtube#searchResult"
+	snippet: {publishedAt: "2020-05-20T01:15:02Z", channelId: "UCsNG5AKFeyX_2_GB7ubk9NA",…}
+		channelId: "UCsNG5AKFeyX_2_GB7ubk9NA"
+		channelTitle: "Building Technology"
+		description: "After Building Underground House with Private Underground Living We need one more king room for your living to survival in the forest. In this video you will see ..."
+		liveBroadcastContent: "none"
+		publishTime: "2020-05-20T01:15:02Z"
+		publishedAt: "2020-05-20T01:15:02Z"
+		thumbnails: {default: {url: "https://i.ytimg.com/vi/n1DUkSnzGCY/default.jpg", width: 120, height: 90},…}
+		default: {url: "https://i.ytimg.com/vi/n1DUkSnzGCY/default.jpg", width: 120, height: 90}
+		high: {url: "https://i.ytimg.com/vi/n1DUkSnzGCY/hqdefault.jpg", width: 480, height: 360}
+		medium: {url: "https://i.ytimg.com/vi/n1DUkSnzGCY/mqdefault.jpg", width: 320, height: 180}
+		title: "Building The Most Modern Underground King Room with Swimming Pool in Underground House"
+	1: {kind: "youtube#searchResult", etag: "8lyFP9OGf_yQ7YasokjOSSy4Z4w",…}
+	2: {kind: "youtube#searchResult", etag: "jEkVA2DAvqoqRRt0690TwpzMvrg",…}
+	3: {kind: "youtube#searchResult", etag: "NUFqNv89KnIovuU8ElhTx2sk0iY",…}
+	4: {kind: "youtube#searchResult", etag: "Txtgj_W_dCZULmXmm45nQ3biTxY",…}
+	5: {kind: "youtube#searchResult", etag: "3si3ZjKW7ngrTnLJBo4wJKmBhoc",…}
+	6: {kind: "youtube#searchResult", etag: "xTbzagDofc6lSeRU4cfhFKPmH-o",…}
+	7: {kind: "youtube#searchResult", etag: "TuEMI0EzpNrupps5Z6y-wiY7R2o",…}
+	8: {kind: "youtube#searchResult", etag: "KKALEo5n_5xPc5aW99gz4-f-6Lw",…}
+	9: {kind: "youtube#searchResult", etag: "V6jkJKCnR4F1hCMMwgyGz2whU1o",…}
+	kind: "youtube#searchListResponse"
+	nextPageToken: "CAoQAA"
+	pageInfo: {totalResults: 1000000, resultsPerPage: 10}
+	regionCode: "US"
+
+• console.log
+	{data: {…}, status: 200, statusText: "", headers: {…}, config: {…}, …}config: {url: "/search", method: "get", headers: {…}, params: {…}, baseURL: "https://www.googleapis.com/youtube/v3", …}
+	data: 
+		etag: "UrN_XBoerTnV0BFpe5KYyE2Gjwk"
+		items: Array(10)
+			0: {kind: "youtube#searchResult", etag: "_iDimM15zRUpTqmwS4Eanghaf80", id: {…}, snippet: {…}}
+			1: {kind: "youtube#searchResult", etag: "8lyFP9OGf_yQ7YasokjOSSy4Z4w", id: {…}, snippet: {…}}
+			2: {kind: "youtube#searchResult", etag: "jEkVA2DAvqoqRRt0690TwpzMvrg", id: {…}, snippet: {…}}
+			3: {kind: "youtube#searchResult", etag: "NUFqNv89KnIovuU8ElhTx2sk0iY", id: {…}, snippet: {…}}
+			4: {kind: "youtube#searchResult", etag: "Txtgj_W_dCZULmXmm45nQ3biTxY", id: {…}, snippet: {…}}
+			5: {kind: "youtube#searchResult", etag: "3si3ZjKW7ngrTnLJBo4wJKmBhoc", id: {…}, snippet: {…}}
+			6: {kind: "youtube#searchResult", etag: "xTbzagDofc6lSeRU4cfhFKPmH-o", id: {…}, snippet: {…}}
+			7: {kind: "youtube#searchResult", etag: "TuEMI0EzpNrupps5Z6y-wiY7R2o", id: {…}, snippet: {…}}
+			8: {kind: "youtube#searchResult", etag: "KKALEo5n_5xPc5aW99gz4-f-6Lw", id: {…}, snippet: {…}}
+			9: {kind: "youtube#searchResult", etag: "V6jkJKCnR4F1hCMMwgyGz2whU1o", id: {…}, snippet: {…}}
+			length: 10
+			__proto__: Array(0)
+		kind: "youtube#searchListResponse"nextPageToken: "CAoQAA"pageInfo: {totalResults: 1000000, resultsPerPage: 10}regionCode: "US"__proto__: Objectheaders: {cache-control: "private", content-encoding: "gzip", content-length: "2558", content-type: "application/json; charset=UTF-8", date: "Fri, 04 Sep 2020 15:43:21 GMT", …}request: XMLHttpRequest {readyState: 4, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, onreadystatechange: ƒ, …}status: 200statusText: ""__proto__: Object
